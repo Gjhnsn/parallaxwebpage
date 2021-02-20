@@ -1,0 +1,87 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: rgb(87, 126, 87);
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(185, 155, 155);
+}
+
+.header_title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    position: relative;
+    top: 8px;
+    letter-spacing: 8px;
+    font-weight: 200;
+}
+
+.img_1,
+.img_2,
+.img_3 {
+    background-image: url(../img/small.jpg);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+    min-height: 100%;
+    opacity: .85;
+}
+
+.page_name {
+    text-align: center;
+    font: 150px Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 5px;
+}
+
+.text_section {
+    background-color: #f0e8e2;
+    padding: 150px 130px;
+    margin-top: 0;
+}
+
+.title_text {
+    letter-spacing: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font: 50px "robot", sans-serif;
+    margin: 0;
+}
+
+.img_2 {
+    background-image: url(../img/planted.jpg);
+}
+
+.img_3 {
+    background-image: url(../img/leaves.jpg);
+}
+
+/* Turn off parallax scrolling for tablets and phones as it is not supported */
+@media only screen and (max-device-width: 1024px) {
+
+    .cd-logo,
+    .layer-cake,
+    .kitchen-equipment,
+    .cake-ingredients,
+    .bowl-of-cakemix,
+    .cake-in-oven,
+    .decorated-cake {
+        background-attachment: scroll;
+    }
+}
